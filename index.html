@@ -296,7 +296,7 @@
                     <div class="card-body">
                         <h3>${p.title}</h3>
                         <div class="price" style="color:${accent}">$${p.price}</div>
-                        <button class="btn-unlock" onclick="openModal()">DESBLOQUEAR ACCESO</button>
+                        <button class="btn-unlock" onclick="addToCart('${p.title}', ${p.price})">AÑADIR A CESTA</button>
                     </div>
                 `;
                 grid.appendChild(card);
